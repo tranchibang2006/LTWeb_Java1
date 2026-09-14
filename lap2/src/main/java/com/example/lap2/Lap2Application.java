@@ -45,7 +45,6 @@ public class Lap2Application {
 		return "Sinh viên có mã: " + id;
 	}
 
-
 	// Trả về JSON Object
 	@GetMapping("/student")
     public Student getStudent() {
@@ -63,5 +62,11 @@ public class Lap2Application {
 	}
 
 }
+
+// Bài1 http://localhost:8081/api/hello
+// Bài2 http://localhost:8081/api/greeting?name=Nam
+// Bài3 http://localhost:8081/api/student/123
+// Bài4 http://localhost:8081/api/student
+// Bài5 http://localhost:8081/api/students
 
 
